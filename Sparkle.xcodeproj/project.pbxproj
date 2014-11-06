@@ -1661,6 +1661,7 @@
 			baseConfigurationReference = FA1941CA0D94A70100DD942E /* ConfigFrameworkDebug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
 			};
 			name = Debug;
 		};
@@ -1669,6 +1670,7 @@
 			baseConfigurationReference = FA1941D50D94A70100DD942E /* ConfigFrameworkRelease.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
 			};
 			name = Release;
 		};
@@ -1692,6 +1694,7 @@
 			baseConfigurationReference = FA1941D30D94A70100DD942E /* ConfigRelaunchDebug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
 			};
 			name = Debug;
 		};
@@ -1700,6 +1703,7 @@
 			baseConfigurationReference = FA1941D40D94A70100DD942E /* ConfigRelaunchRelease.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
 			};
 			name = Release;
 		};
