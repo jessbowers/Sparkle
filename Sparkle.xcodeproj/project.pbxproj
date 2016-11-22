@@ -2027,6 +2027,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FA1941CA0D94A70100DD942E /* ConfigFrameworkDebug.xcconfig */;
 			buildSettings = {
+				SPARKLE_AUTOMATED_DOWNGRADES = 1;
+				SPARKLE_NORMALIZE_INSTALLED_APPLICATION_NAME = 1;
 			};
 			name = Coverage;
 		};
@@ -2080,6 +2082,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FA1941CA0D94A70100DD942E /* ConfigFrameworkDebug.xcconfig */;
 			buildSettings = {
+				SPARKLE_AUTOMATED_DOWNGRADES = 1;
+				SPARKLE_NORMALIZE_INSTALLED_APPLICATION_NAME = 1;
 			};
 			name = Debug;
 		};
@@ -2087,6 +2091,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FA1941D50D94A70100DD942E /* ConfigFrameworkRelease.xcconfig */;
 			buildSettings = {
+				SPARKLE_AUTOMATED_DOWNGRADES = 1;
+				SPARKLE_NORMALIZE_INSTALLED_APPLICATION_NAME = 1;
 			};
 			name = Release;
 		};
